@@ -33,6 +33,7 @@ public class ContaTerminal {
         switch(g1) {
             case 'M':
                 System.out.println("Maculino");
+                System.out.println("        ");
 
                 break;
             case 'F':
@@ -43,7 +44,6 @@ public class ContaTerminal {
                 System.out.println("Invalido");
                 break;
         }
-
 
         System.out.println("Digite seu cep: ");
         String cep = scanner.nextLine();
